@@ -1,0 +1,75 @@
+body{
+    background-image: url("background-pattern-desktop.jpg");
+    background-size: 2000px 320px;
+    background-repeat: no-repeat;
+    
+    /* background-repeat: repeat; */
+}
+p{
+    font-size: large;
+}
+
+#text1,#text2,#text3,#text4{
+    font-weight: 600;
+    font-size: 30px;
+    
+    /* margin-top: 0px; */
+}
+
+#text1:hover{
+    cursor: pointer;
+    color:hsl(276, 50%, 47%);
+}
+#text2:hover{
+    cursor: pointer;
+    color:hsl(276, 50%, 47%);
+}
+#text3:hover{
+    cursor: pointer;
+    color:hsl(276, 50%, 47%);
+}
+#text4:hover{
+    cursor: pointer;
+    color:hsl(276, 50%, 47%);
+}
+.plus1, .plus2, .plus3, .plus4 {
+    width: 38px;
+    height: 40px;
+    margin-top: 2px;
+}
+
+@media(max-width:650px){
+    #text1,#text2,#text3,#text4{
+        font-weight: 600;
+        font-size: 18px;
+        color:hsl(292, 42%, 14%);
+        
+        /* margin-top: 0px; */
+    }
+    .text1,.text2,.text3,.text4{
+        font-weight: 500!important;
+        font-size: 15px!important;
+        color:black;
+        
+        /* margin-top: 0px; */
+    }
+
+
+    #text1:hover{
+        cursor: pointer;
+        color:hsl(276, 50%, 47%);
+    }
+    #text2:hover{
+        cursor: pointer;
+        color:hsl(276, 50%, 47%);
+    }
+    #text3:hover{
+        cursor: pointer;
+        color:hsl(276, 50%, 47%);
+    }
+    #text4:hover{
+        cursor: pointer;
+        color:hsl(276, 50%, 47%);
+    }
+
+}
